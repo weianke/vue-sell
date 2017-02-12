@@ -22,9 +22,6 @@
         type: Object
       }
     },
-    created() {
-
-    },
     methods: {
       addCart(event) {
         if(!event._constructed) {

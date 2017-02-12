@@ -77,7 +77,7 @@
       return {
         showFlag: false,
         selectType: ALL,
-        onlyContent: false,
+        onlyContent: true,
         desc: {
           all: '全部',
           positive: '推荐',
@@ -96,7 +96,7 @@
           if(!this.scroll) {
             this.scroll = new BSscroll(this.$els.food,{
               click: true
-            })
+            });
           } else {
             //重新做计算
             this.scroll.refresh();
@@ -111,9 +111,10 @@
         if(!event._constructed){
           return;
         }
+        console.log(this.food.count);
          /* 子元素 传递给父级元素一个cart.add事件， event.target是事件的参数*/
         this.$dispatch('cart.add', event.target);
-        Vue.set(this.food,'count',1);
+        Vue.set(this.food,'count', 1);
       },
       needShow(type, text) {
         // 如果只有内容,并且没有文本的时候 就返回false
@@ -250,6 +251,7 @@
           opacity: 1
         &.fade-enter, &.fade-leave
           opacity: 0
+          z-index: -1
     .info
       padding: 18px
       .title

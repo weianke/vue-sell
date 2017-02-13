@@ -177,7 +177,7 @@
       .icon-arrow_lift
         display: block
         padding: 10px
-        font-size: 25px
+        font-size: 20px
         color: #fff
     &.move-transition
       transition: all 0.2s linear

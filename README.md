@@ -10,14 +10,14 @@
 
 ## 指令
 
- 下载依赖
-npm install
+   #下载依赖
+     npm install
 
- 本地启动项目
-npm run dev
+   #本地启动项目
+    npm run dev
 
- 打包项目
-npm run build
+   #打包项目
+    npm run build
 
 
 

@@ -1,27 +1,25 @@
 # vue-sell-app
 
-> vue-sell-app
+> vue 高仿饿了么， 
+>项目实现： 实现购买动画，购物车效果，商品模块，评价模块等，整个饿了么项目
 
-## Build Setup
+## 项目所用知识
 
-``` bash
-# install dependencies
+![vue-sell](http://webapp.didistatic.com/static/webapp/shield/vue-sell.png)
+
+
+## 指令
+
+# 下载依赖 
 npm install
 
-# serve with hot reload at localhost:8080
+# 本地启动项目
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
 
-# run unit tests
-npm run unit
 
-# run e2e tests
-npm run e2e
 
-# run all tests
-npm test
-```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
